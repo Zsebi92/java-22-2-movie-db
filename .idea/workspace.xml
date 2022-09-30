@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3138a7a9-34e2-4de8-8729-0910c0fa3f94" name="Changes" comment="init backend and frontend final">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/repo/MovieDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/service/MovieService.java" afterDir="false" />
+    <list default="true" id="3138a7a9-34e2-4de8-8729-0910c0fa3f94" name="Changes" comment="backend implemented">
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/CreateMovie.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/MovieCard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/MovieCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/MovieGallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/MovieGallery.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/useMovies.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/model/Movie.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/repo/MovieDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/repo/MovieDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/service/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +30,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -52,6 +64,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "18",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,7 +75,8 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "b43fdd98b1fd705ae4c3a10cf25aad8a"
+    "spring.configuration.checksum": "b43fdd98b1fd705ae4c3a10cf25aad8a",
+    "ts.external.directory.path": "/Users/zsebi/IdeaProjects/java-22-2-movie-db/frontend/node_modules/typescript/lib"
   }
 }]]></component>
   <component name="RunManager" selected="Spring Boot.BackendApplication">
@@ -101,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664528035295</updated>
       <workItem from="1664528036668" duration="790000" />
-      <workItem from="1664528832313" duration="3454000" />
+      <workItem from="1664528832313" duration="15311000" />
     </task>
     <task id="LOCAL-00001" summary="init backend and frontend final">
       <created>1664528699522</created>
@@ -124,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664528846584</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="backend implemented">
+      <created>1664540243233</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664540243233</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +167,7 @@
       <path value="$PROJECT_DIR$/backend" />
     </ignored-roots>
     <MESSAGE value="init backend and frontend final" />
-    <option name="LAST_COMMIT_MESSAGE" value="init backend and frontend final" />
+    <MESSAGE value="backend implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend implemented" />
   </component>
 </project>

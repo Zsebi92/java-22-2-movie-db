@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/api/movies")
 public class MovieController {
 
     private MovieService movieService;
@@ -23,7 +23,7 @@ public class MovieController {
         return foundMovie;
     }
 
-    @GetMapping({"title"})
+    @GetMapping({"/title"})
     public Movie getMovieByTitle(@PathVariable String title){
         Movie foundMovie = movieService.getMovieByTitle(title);
 
