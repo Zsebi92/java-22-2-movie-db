@@ -7,14 +7,16 @@ import CreateMovie from "./components/CreateMovie";
 function App() {
 
     const {movies, addMovie} = useMovies()
-  return (
-    <div className="App">
-      <header className="App-header">
-        <MovieGallery movies={movies}/>
-          <CreateMovie addMovie={addMovie}/>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <header className="App-header">
+
+                <MovieGallery movies={movies}/>
+                <CreateMovie addMovie={addMovie}/>
+
+            </header>
+        </div>
+    );
 }
 
 export default App;

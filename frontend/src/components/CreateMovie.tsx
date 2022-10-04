@@ -8,12 +8,14 @@ type CreateMovieProps = {
 
 export default function CreateMovie(props: CreateMovieProps) {
 
+    const [id, setId] = useState<string>("");
     const [title, setTitle] = useState<string>("");
     const [posterUrl, setPosterUrl] = useState<string>("");
 
     const onCreate = () => {
 
         const newMovie: Movie = {
+            id: id,
             title: title,
             posterUrl: posterUrl
         }
@@ -23,6 +25,14 @@ export default function CreateMovie(props: CreateMovieProps) {
 
     return <div>
         Add new Movie
+        <div>
+            <p>Id</p>
+            <input type={"text"}
+                   value={id}
+                   className={"create-movie__input"}
+                   onChange={(e) => setId(e.target.value)}
+            />
+        </div>
         <div>
             <p>Title</p>
             <input type={"text"}
