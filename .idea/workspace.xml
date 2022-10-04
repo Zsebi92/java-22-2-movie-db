@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3138a7a9-34e2-4de8-8729-0910c0fa3f94" name="Changes" comment="Frontend implemented">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="3138a7a9-34e2-4de8-8729-0910c0fa3f94" name="Changes" comment="Frontend implemented" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +100,7 @@
       <updated>1664528035295</updated>
       <workItem from="1664528036668" duration="790000" />
       <workItem from="1664528832313" duration="15466000" />
-      <workItem from="1664819399649" duration="302000" />
+      <workItem from="1664819399649" duration="1255000" />
     </task>
     <task id="LOCAL-00001" summary="init backend and frontend final">
       <created>1664528699522</created>
@@ -141,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664552813487</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Frontend implemented">
+      <created>1664867179834</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664867179834</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
